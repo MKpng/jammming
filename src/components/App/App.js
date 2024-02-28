@@ -24,7 +24,6 @@ function App() {
       setSearchResults([...searchResults, track]);
 }
 
-
   const search = useCallback((term) => {
     Spotify.search(term).then(setSearchResults);
   }, [])
