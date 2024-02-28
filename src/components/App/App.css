@@ -1,0 +1,17 @@
+.App {
+  background-image: url('./oleg-sergeichik-Ebhh_t6tjo0-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+}
+
+.flexin {
+  display: flex;
+  justify-content: space-between;
+}

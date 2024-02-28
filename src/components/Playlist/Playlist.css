@@ -1,0 +1,60 @@
+.containe {
+    background-color: rgba(25, 20, 20, 0.8);
+    min-height: 70vh;
+    min-width: 25vw;
+    margin-right: 17.5vw;
+    margin-top: 10vh;
+    border-radius: 5px;
+    border: 3px solid #1DB954;
+    overflow: auto;
+    
+}
+
+.containe:hover {
+    border: 3px solid #f5efef;
+    background-color: rgba(25, 20, 20, 1);
+}
+
+.h2 {
+    font-size: 1.5vw;
+    font-family: monospace;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    color: antiquewhite;
+}
+
+.buttonSpot {
+    border: 2px solid #1DB954;
+    background-color: black;
+    color:antiquewhite;
+    border-radius: 25px;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 2vh;
+    width: 20vh;
+    height: 4vh;
+    margin-top: 2vh
+}
+
+.buttonSpot:hover {
+    font-weight: 700;
+    font-size: 1.85vh;
+    width: 18.5vh;
+    height: 4.5vh;
+    border: 2px solid #191414;
+    color: #1DB954;
+    background-color: antiquewhite;
+}
+
+.input {
+    margin-top: 3vh;
+    border: 2px solid #1DB954;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 2.5vh;
+    min-height: 3vh;
+    margin-bottom: 2.5vh;
+    text-align: center;
+    min-height: 3.5vh;
+}

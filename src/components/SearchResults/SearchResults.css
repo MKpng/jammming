@@ -1,0 +1,29 @@
+.container {
+    background-color: rgba(25, 20, 20, 0.8);
+    max-height: 70vh;
+    min-width: 25vw;
+    margin-left: 17.5vw;
+    margin-top: 10vh;
+    border-radius: 5px;
+    border: 3px solid #1DB954;
+    overflow: auto;
+}
+
+.container:hover {
+    border: 3px solid antiquewhite;
+    background-color: rgba(25, 20, 20, 1);
+}
+
+.h2 {
+    font-size: 2vw;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    text-shadow: rgb(229, 219, 241) 1px 0 10px;
+}
+
+
+.container:hover .h2 {
+    display: none;
+}
+

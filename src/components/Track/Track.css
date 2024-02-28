@@ -1,0 +1,45 @@
+.title {
+    color: antiquewhite;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 2vh;
+}
+
+.addons {
+    color: #1DB954;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.5vh;
+}
+
+.title button {
+    border-radius: 50px;
+    min-width: 1.3vw;
+    min-height: 2.5vh;
+    color: black;
+    font-size: 1.5vh;
+    font-weight: 700;
+    background-color: antiquewhite;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.title button:hover {
+    background-color: #1DB954;
+}
+
+.addons span {
+    color:antiquewhite;
+}
+
+.back:hover {
+    background-color: black;
+    border-top: 3px solid #1DB954;
+    border-bottom: 3px solid #1DB954;
+}
+
+.back {
+    border-top: 1px solid antiquewhite;
+    border-bottom: 1px solid antiquewhite;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
